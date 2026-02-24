@@ -36,7 +36,10 @@
             gb_regras = new GroupBox();
             cb_simbolos = new CheckBox();
             lb_senha_gerada = new Label();
+            menuStrip1 = new MenuStrip();
+            bancoDeSenhasToolStripMenuItem = new ToolStripMenuItem();
             gb_regras.SuspendLayout();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // btn_gerar_senha
@@ -47,7 +50,7 @@
             btn_gerar_senha.FlatStyle = FlatStyle.Flat;
             btn_gerar_senha.Font = new Font("Calibri", 12F, FontStyle.Bold);
             btn_gerar_senha.ForeColor = SystemColors.ActiveCaptionText;
-            btn_gerar_senha.Location = new Point(25, 195);
+            btn_gerar_senha.Location = new Point(25, 214);
             btn_gerar_senha.Margin = new Padding(4);
             btn_gerar_senha.Name = "btn_gerar_senha";
             btn_gerar_senha.Size = new Size(228, 27);
@@ -58,7 +61,7 @@
             // 
             // tb_senha_gerada
             // 
-            tb_senha_gerada.Location = new Point(25, 258);
+            tb_senha_gerada.Location = new Point(25, 277);
             tb_senha_gerada.Margin = new Padding(4);
             tb_senha_gerada.MaxLength = 20;
             tb_senha_gerada.Name = "tb_senha_gerada";
@@ -68,7 +71,7 @@
             // 
             // tb_tamanho_senha
             // 
-            tb_tamanho_senha.Location = new Point(159, 24);
+            tb_tamanho_senha.Location = new Point(159, 43);
             tb_tamanho_senha.Margin = new Padding(4);
             tb_tamanho_senha.MaxLength = 2;
             tb_tamanho_senha.Name = "tb_tamanho_senha";
@@ -79,7 +82,7 @@
             // lb_tamanho
             // 
             lb_tamanho.AutoSize = true;
-            lb_tamanho.Location = new Point(25, 27);
+            lb_tamanho.Location = new Point(25, 46);
             lb_tamanho.Margin = new Padding(4, 0, 4, 0);
             lb_tamanho.Name = "lb_tamanho";
             lb_tamanho.Size = new Size(126, 18);
@@ -116,7 +119,7 @@
             gb_regras.Controls.Add(cb_letras);
             gb_regras.Controls.Add(cb_numeros);
             gb_regras.ForeColor = SystemColors.ButtonHighlight;
-            gb_regras.Location = new Point(25, 58);
+            gb_regras.Location = new Point(25, 77);
             gb_regras.Margin = new Padding(4);
             gb_regras.Name = "gb_regras";
             gb_regras.Padding = new Padding(4);
@@ -140,28 +143,48 @@
             // lb_senha_gerada
             // 
             lb_senha_gerada.AutoSize = true;
-            lb_senha_gerada.Location = new Point(25, 236);
+            lb_senha_gerada.Location = new Point(25, 255);
             lb_senha_gerada.Margin = new Padding(4, 0, 4, 0);
             lb_senha_gerada.Name = "lb_senha_gerada";
             lb_senha_gerada.Size = new Size(93, 18);
             lb_senha_gerada.TabIndex = 0;
             lb_senha_gerada.Text = "Senha Gerada";
             // 
+            // menuStrip1
+            // 
+            menuStrip1.BackColor = Color.Gray;
+            menuStrip1.Items.AddRange(new ToolStripItem[] { bancoDeSenhasToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(275, 24);
+            menuStrip1.TabIndex = 7;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // bancoDeSenhasToolStripMenuItem
+            // 
+            bancoDeSenhasToolStripMenuItem.ForeColor = Color.White;
+            bancoDeSenhasToolStripMenuItem.Name = "bancoDeSenhasToolStripMenuItem";
+            bancoDeSenhasToolStripMenuItem.Size = new Size(74, 20);
+            bancoDeSenhasToolStripMenuItem.Text = "Ver senhas";
+            bancoDeSenhasToolStripMenuItem.Click += bancoDeSenhasToolStripMenuItem_Click;
+            // 
             // F_principal
             // 
             AutoScaleDimensions = new SizeF(8F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(275, 323);
+            ClientSize = new Size(275, 351);
             Controls.Add(lb_senha_gerada);
             Controls.Add(gb_regras);
             Controls.Add(lb_tamanho);
             Controls.Add(tb_tamanho_senha);
             Controls.Add(tb_senha_gerada);
             Controls.Add(btn_gerar_senha);
+            Controls.Add(menuStrip1);
             Font = new Font("Calibri", 11F);
             ForeColor = SystemColors.Control;
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            MainMenuStrip = menuStrip1;
             Margin = new Padding(4);
             MaximizeBox = false;
             Name = "F_principal";
@@ -169,6 +192,8 @@
             Text = "Gerador de senhas";
             gb_regras.ResumeLayout(false);
             gb_regras.PerformLayout();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -184,5 +209,7 @@
         private GroupBox gb_regras;
         private CheckBox cb_simbolos;
         private Label lb_senha_gerada;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem bancoDeSenhasToolStripMenuItem;
     }
 }

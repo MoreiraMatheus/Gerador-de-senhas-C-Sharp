@@ -18,7 +18,8 @@ namespace gerador_de_senhas
         }
 
         private void bancoDeSenhasToolStripMenuItem_Click(object sender, EventArgs e) {
-            //TODO conectar com o banco de senhas
+            F_Banco_de_Senhas f_Banco_De_Senhas = new F_Banco_de_Senhas();
+            f_Banco_De_Senhas.Show();
         }
     }
 }

@@ -38,6 +38,8 @@
             lb_senha_gerada = new Label();
             menuStrip1 = new MenuStrip();
             bancoDeSenhasToolStripMenuItem = new ToolStripMenuItem();
+            btn_salvar_senha = new Button();
+            btn_copiar_senha = new Button();
             gb_regras.SuspendLayout();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -77,7 +79,9 @@
             tb_tamanho_senha.Name = "tb_tamanho_senha";
             tb_tamanho_senha.Size = new Size(50, 25);
             tb_tamanho_senha.TabIndex = 1;
+            tb_tamanho_senha.Text = "0";
             tb_tamanho_senha.TextAlign = HorizontalAlignment.Center;
+            tb_tamanho_senha.TextChanged += tb_tamanho_senha_TextChanged;
             // 
             // lb_tamanho
             // 
@@ -168,12 +172,41 @@
             bancoDeSenhasToolStripMenuItem.Text = "Ver senhas";
             bancoDeSenhasToolStripMenuItem.Click += bancoDeSenhasToolStripMenuItem_Click;
             // 
+            // btn_salvar_senha
+            // 
+            btn_salvar_senha.BackColor = Color.Silver;
+            btn_salvar_senha.FlatStyle = FlatStyle.Flat;
+            btn_salvar_senha.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_salvar_senha.ForeColor = Color.Black;
+            btn_salvar_senha.Location = new Point(25, 309);
+            btn_salvar_senha.Name = "btn_salvar_senha";
+            btn_salvar_senha.Size = new Size(106, 28);
+            btn_salvar_senha.TabIndex = 7;
+            btn_salvar_senha.Text = "Salvar";
+            btn_salvar_senha.UseVisualStyleBackColor = false;
+            // 
+            // btn_copiar_senha
+            // 
+            btn_copiar_senha.BackColor = Color.Silver;
+            btn_copiar_senha.FlatStyle = FlatStyle.Flat;
+            btn_copiar_senha.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_copiar_senha.ForeColor = Color.Black;
+            btn_copiar_senha.Location = new Point(150, 309);
+            btn_copiar_senha.Name = "btn_copiar_senha";
+            btn_copiar_senha.Size = new Size(103, 28);
+            btn_copiar_senha.TabIndex = 8;
+            btn_copiar_senha.Text = "Copiar";
+            btn_copiar_senha.UseVisualStyleBackColor = false;
+            btn_copiar_senha.Click += btn_copiar_senha_Click;
+            // 
             // F_principal
             // 
             AutoScaleDimensions = new SizeF(8F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(275, 351);
+            ClientSize = new Size(275, 379);
+            Controls.Add(btn_copiar_senha);
+            Controls.Add(btn_salvar_senha);
             Controls.Add(lb_senha_gerada);
             Controls.Add(gb_regras);
             Controls.Add(lb_tamanho);
@@ -211,5 +244,7 @@
         private Label lb_senha_gerada;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem bancoDeSenhasToolStripMenuItem;
+        private Button btn_salvar_senha;
+        private Button btn_copiar_senha;
     }
 }

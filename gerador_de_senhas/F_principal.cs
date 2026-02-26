@@ -3,7 +3,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace gerador_de_senhas
 {
     public partial class F_principal : Form {
-        string senha = "";
+        string senha = " ";
 
         public F_principal() {
             InitializeComponent();
@@ -39,6 +39,10 @@ namespace gerador_de_senhas
                 tb_tamanho_senha.Text = "0";
             }
 
+        }
+
+        private void configToolStripMenuItem_Click(object sender, EventArgs e) {
+            //TODO abrir tela de configurações
         }
     }
 }

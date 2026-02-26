@@ -40,6 +40,7 @@
             bancoDeSenhasToolStripMenuItem = new ToolStripMenuItem();
             btn_salvar_senha = new Button();
             btn_copiar_senha = new Button();
+            configToolStripMenuItem = new ToolStripMenuItem();
             gb_regras.SuspendLayout();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -157,7 +158,7 @@
             // menuStrip1
             // 
             menuStrip1.BackColor = Color.Gray;
-            menuStrip1.Items.AddRange(new ToolStripItem[] { bancoDeSenhasToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { bancoDeSenhasToolStripMenuItem, configToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(275, 24);
@@ -198,6 +199,15 @@
             btn_copiar_senha.Text = "Copiar";
             btn_copiar_senha.UseVisualStyleBackColor = false;
             btn_copiar_senha.Click += btn_copiar_senha_Click;
+            // 
+            // configToolStripMenuItem
+            // 
+            configToolStripMenuItem.BackColor = Color.Gray;
+            configToolStripMenuItem.ForeColor = Color.White;
+            configToolStripMenuItem.Name = "configToolStripMenuItem";
+            configToolStripMenuItem.Size = new Size(55, 20);
+            configToolStripMenuItem.Text = "Config";
+            configToolStripMenuItem.Click += configToolStripMenuItem_Click;
             // 
             // F_principal
             // 
@@ -246,5 +256,6 @@
         private ToolStripMenuItem bancoDeSenhasToolStripMenuItem;
         private Button btn_salvar_senha;
         private Button btn_copiar_senha;
+        private ToolStripMenuItem configToolStripMenuItem;
     }
 }

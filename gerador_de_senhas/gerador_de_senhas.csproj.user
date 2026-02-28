@@ -4,6 +4,9 @@
     <Compile Update="F_Banco_de_Senhas.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="F_Configuracoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="F_principal.cs">
       <SubType>Form</SubType>
     </Compile>

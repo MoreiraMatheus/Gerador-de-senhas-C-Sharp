@@ -24,9 +24,9 @@
         /// </summary>
         private void InitializeComponent() {
             groupBox1 = new GroupBox();
+            tb_senha1 = new TextBox();
             btn_copiar_senha1 = new Button();
             btn_ver_senha1 = new Button();
-            tb_senha1 = new TextBox();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -42,6 +42,14 @@
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Visualizar Senhas";
+            // 
+            // tb_senha1
+            // 
+            tb_senha1.Location = new Point(16, 22);
+            tb_senha1.Name = "tb_senha1";
+            tb_senha1.Size = new Size(150, 23);
+            tb_senha1.TabIndex = 0;
+            tb_senha1.UseSystemPasswordChar = true;
             // 
             // btn_copiar_senha1
             // 
@@ -72,14 +80,6 @@
             btn_ver_senha1.Text = "Ver senha";
             btn_ver_senha1.UseVisualStyleBackColor = false;
             btn_ver_senha1.Click += btn_ver_senha1_Click;
-            // 
-            // tb_senha1
-            // 
-            tb_senha1.Location = new Point(16, 22);
-            tb_senha1.Name = "tb_senha1";
-            tb_senha1.PasswordChar = '*';
-            tb_senha1.Size = new Size(150, 23);
-            tb_senha1.TabIndex = 0;
             // 
             // F_Banco_de_Senhas
             // 

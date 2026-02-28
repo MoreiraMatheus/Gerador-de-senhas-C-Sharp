@@ -10,17 +10,19 @@ using System.Windows.Forms;
 
 namespace gerador_de_senhas {
     public partial class F_Banco_de_Senhas : Form {
-        string senha;
-        public F_Banco_de_Senhas() {
+        List<string> bancoDeSenhas = new List<string>();
+
+        public F_Banco_de_Senhas(List<string> banco) {
+            bancoDeSenhas = banco;
             InitializeComponent();
+            tb_senha1.Text = bancoDeSenhas[0];
         }
 
         private void btn_ver_senha1_Click(object sender, EventArgs e) {
-            if (tb_senha1.PasswordChar == char.Parse("*")) {
-                //TODO Adicionar uma lógica aqui para que a senha fique visível
-                tb_senha1.PasswordChar = char.Parse("-");
+            if (tb_senha1.UseSystemPasswordChar) {
+                tb_senha1.UseSystemPasswordChar = false;
             }else {
-                tb_senha1.PasswordChar = char.Parse("*");
+                tb_senha1.UseSystemPasswordChar = true;
             }
         }
 

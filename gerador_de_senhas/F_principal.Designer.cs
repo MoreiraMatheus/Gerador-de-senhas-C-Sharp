@@ -38,9 +38,9 @@
             lb_senha_gerada = new Label();
             menuStrip1 = new MenuStrip();
             bancoDeSenhasToolStripMenuItem = new ToolStripMenuItem();
+            configToolStripMenuItem = new ToolStripMenuItem();
             btn_salvar_senha = new Button();
             btn_copiar_senha = new Button();
-            configToolStripMenuItem = new ToolStripMenuItem();
             gb_regras.SuspendLayout();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -173,6 +173,15 @@
             bancoDeSenhasToolStripMenuItem.Text = "Ver senhas";
             bancoDeSenhasToolStripMenuItem.Click += bancoDeSenhasToolStripMenuItem_Click;
             // 
+            // configToolStripMenuItem
+            // 
+            configToolStripMenuItem.BackColor = Color.Gray;
+            configToolStripMenuItem.ForeColor = Color.White;
+            configToolStripMenuItem.Name = "configToolStripMenuItem";
+            configToolStripMenuItem.Size = new Size(55, 20);
+            configToolStripMenuItem.Text = "Config";
+            configToolStripMenuItem.Click += configToolStripMenuItem_Click;
+            // 
             // btn_salvar_senha
             // 
             btn_salvar_senha.BackColor = Color.Silver;
@@ -185,6 +194,7 @@
             btn_salvar_senha.TabIndex = 7;
             btn_salvar_senha.Text = "Salvar";
             btn_salvar_senha.UseVisualStyleBackColor = false;
+            btn_salvar_senha.Click += btn_salvar_senha_Click;
             // 
             // btn_copiar_senha
             // 
@@ -199,15 +209,6 @@
             btn_copiar_senha.Text = "Copiar";
             btn_copiar_senha.UseVisualStyleBackColor = false;
             btn_copiar_senha.Click += btn_copiar_senha_Click;
-            // 
-            // configToolStripMenuItem
-            // 
-            configToolStripMenuItem.BackColor = Color.Gray;
-            configToolStripMenuItem.ForeColor = Color.White;
-            configToolStripMenuItem.Name = "configToolStripMenuItem";
-            configToolStripMenuItem.Size = new Size(55, 20);
-            configToolStripMenuItem.Text = "Config";
-            configToolStripMenuItem.Click += configToolStripMenuItem_Click;
             // 
             // F_principal
             // 

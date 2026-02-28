@@ -17,3 +17,4 @@ C:\Users\famil\OneDrive\Documentos\Programação\Estudos\C#\gerador-de-senhas\ge
 C:\Users\famil\OneDrive\Documentos\Programação\Estudos\C#\gerador-de-senhas\gerador_de_senhas\obj\Debug\net8.0-windows\ref\gerador_de_senhas.dll
 C:\Users\famil\OneDrive\Documentos\Programação\Estudos\C#\gerador-de-senhas\gerador_de_senhas\obj\Debug\net8.0-windows\gerador_de_senhas.Properties.Resources.resources
 C:\Users\famil\OneDrive\Documentos\Programação\Estudos\C#\gerador-de-senhas\gerador_de_senhas\obj\Debug\net8.0-windows\gerador_de_senhas.F_Banco_de_Senhas.resources
+C:\Users\famil\OneDrive\Documentos\Programação\Estudos\C#\gerador-de-senhas\gerador_de_senhas\obj\Debug\net8.0-windows\gerador_de_senhas.F_Configuracoes.resources

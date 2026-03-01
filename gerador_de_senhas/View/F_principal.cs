@@ -1,3 +1,4 @@
+using gerador_de_senhas.Controler;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace gerador_de_senhas

@@ -1,4 +1,4 @@
-﻿namespace gerador_de_senhas {
+﻿namespace gerador_de_senhas.Controler {
     internal class Gerador {
         public static string Gerar(bool possuiLetras, bool possuiNumeros, bool possuiSimbolos, int tamanho) {
             Random aleatorio = new Random();

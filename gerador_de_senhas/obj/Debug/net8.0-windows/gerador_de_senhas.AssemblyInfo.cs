@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gerador_de_senhas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f999e39b9c6d68bd0b62236f2246a2d34fcbec77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1da8e9ca88556982ce18ee8ecc3bb0636477d015")]
 [assembly: System.Reflection.AssemblyProductAttribute("gerador_de_senhas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gerador_de_senhas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

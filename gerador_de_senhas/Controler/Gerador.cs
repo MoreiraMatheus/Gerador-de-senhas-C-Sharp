@@ -1,13 +1,15 @@
-﻿namespace gerador_de_senhas.Controler {
+﻿using gerador_de_senhas.Model;
+
+namespace gerador_de_senhas.Controler {
     internal class Gerador {
         public static string Gerar(bool possuiLetras, bool possuiNumeros, bool possuiSimbolos, int tamanho) {
             Random aleatorio = new Random();
-
+            ConfiguracaoSenhas configuracaoSenhas = new ConfiguracaoSenhas();
 
             //TODO adicionar uma forma de SEMPRE ter um numero uma letra e um simbolo caso o usuário peça
             string todasAsLetras = "abcdefghijklmnopqrstuvwxyz";
             string todosOsNumeros = "0123456789";
-            string todosOsSimbolos = "!@#$%&*?";
+            string todosOsSimbolos = configuracaoSenhas.listaSimbolos;
 
             string baseParaSenha = "";
             string senhaGerada = "";

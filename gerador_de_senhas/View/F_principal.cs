@@ -1,15 +1,22 @@
 using gerador_de_senhas.Controler;
+using gerador_de_senhas.Model;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace gerador_de_senhas
 {
     public partial class F_principal : Form {
         //TODO criar lista com senhas pra passar pro banco de senhas, por hora usar somente senha única
+
         //public List<string> bancoDeSenhas = new List<string>();
+
+        ConfiguracaoSenhas configuracaoSenhas = new ConfiguracaoSenhas();
         string senha = " ";
 
         public F_principal() {
             InitializeComponent();
+            cb_letras.Visible = configuracaoSenhas.letrasMinusculas;
+            cb_numeros.Visible = configuracaoSenhas.numeros;
+            cb_simbolos.Visible = configuracaoSenhas.simbolos;
         }
 
         private void bancoDeSenhasToolStripMenuItem_Click(object sender, EventArgs e) {
@@ -42,8 +49,8 @@ namespace gerador_de_senhas
 
         private void tb_tamanho_senha_TextChanged(object sender, EventArgs e) {
             if (int.TryParse(tb_tamanho_senha.Text, out int numero)) {
-                if (numero > 10) {
-                    tb_tamanho_senha.Text = "10";
+                if (numero > configuracaoSenhas.tamanhoMaximoSenha) {
+                    tb_tamanho_senha.Text = $"{configuracaoSenhas.tamanhoMaximoSenha}";
                 }
             }
             else {

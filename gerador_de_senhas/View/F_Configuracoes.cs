@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace gerador_de_senhas {
     public partial class F_Configuracoes : Form {
+        //TODO usar esse formulário para controlar o arquivo de configurações
         public F_Configuracoes() {
             InitializeComponent();
         }

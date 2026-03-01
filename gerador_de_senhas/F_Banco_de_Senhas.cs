@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace gerador_de_senhas {
     public partial class F_Banco_de_Senhas : Form {
-        List<string> bancoDeSenhas = new List<string>();
-
-        public F_Banco_de_Senhas(List<string> banco) {
-            bancoDeSenhas = banco;
+        //List<string> bancoDeSenhas = new List<string>();
+        public F_Banco_de_Senhas(string senha) {
+            //bancoDeSenhas = banco;
             InitializeComponent();
-            tb_senha1.Text = bancoDeSenhas[0];
+            tb_senha1.Text = senha;
         }
 
         private void btn_ver_senha1_Click(object sender, EventArgs e) {

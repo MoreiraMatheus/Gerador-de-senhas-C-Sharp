@@ -3,7 +3,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace gerador_de_senhas
 {
     public partial class F_principal : Form {
-        public List<string> bancoDeSenhas = new List<string>();
+        //TODO criar lista com senhas pra passar pro banco de senhas, por hora usar somente senha única
+        //public List<string> bancoDeSenhas = new List<string>();
         string senha = " ";
 
         public F_principal() {
@@ -11,7 +12,7 @@ namespace gerador_de_senhas
         }
 
         private void bancoDeSenhasToolStripMenuItem_Click(object sender, EventArgs e) {
-            F_Banco_de_Senhas f_Banco_De_Senhas = new F_Banco_de_Senhas(bancoDeSenhas);
+            F_Banco_de_Senhas f_Banco_De_Senhas = new F_Banco_de_Senhas(senha);
             f_Banco_De_Senhas.Show();
         }
 
@@ -30,7 +31,6 @@ namespace gerador_de_senhas
             tb_senha_gerada.Text = senha;
         }
         private void btn_salvar_senha_Click(object sender, EventArgs e) {
-            bancoDeSenhas.Add(senha);
             MessageBox.Show("Senha salva no banco");
         }
 

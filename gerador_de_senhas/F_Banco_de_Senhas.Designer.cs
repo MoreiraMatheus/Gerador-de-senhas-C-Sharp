@@ -47,6 +47,7 @@
             // 
             tb_senha1.Location = new Point(16, 22);
             tb_senha1.Name = "tb_senha1";
+            tb_senha1.ReadOnly = true;
             tb_senha1.Size = new Size(150, 23);
             tb_senha1.TabIndex = 0;
             tb_senha1.UseSystemPasswordChar = true;
@@ -91,6 +92,7 @@
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             Name = "F_Banco_de_Senhas";
+            ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Banco de Senhas";
             groupBox1.ResumeLayout(false);

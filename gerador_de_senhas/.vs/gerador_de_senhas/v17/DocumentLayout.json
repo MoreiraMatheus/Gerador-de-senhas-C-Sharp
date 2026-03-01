@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\gerador-de-senhas\\gerador_de_senhas\\f_banco_de_senhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|solutionrelative:f_banco_de_senhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\gerador-de-senhas\\gerador_de_senhas\\f_configuracoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|solutionrelative:f_configuracoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\gerador-de-senhas\\gerador_de_senhas\\f_banco_de_senhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|solutionrelative:f_banco_de_senhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\gerador-de-senhas\\gerador_de_senhas\\f_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|solutionrelative:f_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\f_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|solutionrelative:f_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|c:\\users\\famil\\onedrive\\documentos\\programa\u00E7\u00E3o\\estudos\\c#\\gerador-de-senhas\\gerador_de_senhas\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B759780-A261-4CEB-B3A3-631BF54541EF}|gerador_de_senhas.csproj|solutionrelative:config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,19 +34,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "F_Banco_de_Senhas.cs",
-              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\F_Banco_de_Senhas.cs",
-              "RelativeDocumentMoniker": "F_Banco_de_Senhas.cs",
-              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\F_Banco_de_Senhas.cs",
-              "RelativeToolTip": "F_Banco_de_Senhas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T00:14:09.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "F_Banco_de_Senhas.cs [Design]",
               "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\F_Banco_de_Senhas.cs",
@@ -58,33 +41,33 @@
               "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\F_Banco_de_Senhas.cs [Design]",
               "RelativeToolTip": "F_Banco_de_Senhas.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T00:14:06.618Z",
+              "WhenOpened": "2026-03-01T01:08:15.93Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "F_Configuracoes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\F_Configuracoes.cs",
+              "RelativeDocumentMoniker": "F_Configuracoes.cs",
+              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\F_Configuracoes.cs [Design]",
+              "RelativeToolTip": "F_Configuracoes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T01:07:48.559Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "F_principal.cs",
-              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\F_principal.cs",
-              "RelativeDocumentMoniker": "F_principal.cs",
-              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\F_principal.cs",
-              "RelativeToolTip": "F_principal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\Config.cs",
+              "RelativeDocumentMoniker": "Config.cs",
+              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\Config.cs",
+              "RelativeToolTip": "Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T22:58:56.121Z",
+              "WhenOpened": "2026-03-01T01:04:40.673Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "F_principal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\F_principal.cs",
-              "RelativeDocumentMoniker": "F_principal.cs",
-              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\Programa\u00E7\u00E3o\\Estudos\\C#\\gerador-de-senhas\\gerador_de_senhas\\F_principal.cs [Design]",
-              "RelativeToolTip": "F_principal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T22:57:19.482Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

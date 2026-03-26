@@ -29,7 +29,6 @@
         private void InitializeComponent() {
             btn_gerar_senha = new Button();
             tb_senha_gerada = new TextBox();
-            tb_tamanho_senha = new TextBox();
             lb_tamanho = new Label();
             cb_letras = new CheckBox();
             cb_numeros = new CheckBox();
@@ -41,8 +40,10 @@
             configToolStripMenuItem = new ToolStripMenuItem();
             btn_salvar_senha = new Button();
             btn_copiar_senha = new Button();
+            nud_tamanho_senha = new NumericUpDown();
             gb_regras.SuspendLayout();
             menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)nud_tamanho_senha).BeginInit();
             SuspendLayout();
             // 
             // btn_gerar_senha
@@ -71,18 +72,6 @@
             tb_senha_gerada.ReadOnly = true;
             tb_senha_gerada.Size = new Size(228, 25);
             tb_senha_gerada.TabIndex = 6;
-            // 
-            // tb_tamanho_senha
-            // 
-            tb_tamanho_senha.Location = new Point(159, 43);
-            tb_tamanho_senha.Margin = new Padding(4);
-            tb_tamanho_senha.MaxLength = 2;
-            tb_tamanho_senha.Name = "tb_tamanho_senha";
-            tb_tamanho_senha.Size = new Size(50, 25);
-            tb_tamanho_senha.TabIndex = 1;
-            tb_tamanho_senha.Text = "0";
-            tb_tamanho_senha.TextAlign = HorizontalAlignment.Center;
-            tb_tamanho_senha.TextChanged += tb_tamanho_senha_TextChanged;
             // 
             // lb_tamanho
             // 
@@ -210,18 +199,29 @@
             btn_copiar_senha.UseVisualStyleBackColor = false;
             btn_copiar_senha.Click += btn_copiar_senha_Click;
             // 
+            // nud_tamanho_senha
+            // 
+            nud_tamanho_senha.Location = new Point(167, 44);
+            nud_tamanho_senha.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
+            nud_tamanho_senha.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nud_tamanho_senha.Name = "nud_tamanho_senha";
+            nud_tamanho_senha.Size = new Size(50, 25);
+            nud_tamanho_senha.TabIndex = 9;
+            nud_tamanho_senha.TextAlign = HorizontalAlignment.Center;
+            nud_tamanho_senha.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
             // F_principal
             // 
             AutoScaleDimensions = new SizeF(8F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
             ClientSize = new Size(275, 379);
+            Controls.Add(nud_tamanho_senha);
             Controls.Add(btn_copiar_senha);
             Controls.Add(btn_salvar_senha);
             Controls.Add(lb_senha_gerada);
             Controls.Add(gb_regras);
             Controls.Add(lb_tamanho);
-            Controls.Add(tb_tamanho_senha);
             Controls.Add(tb_senha_gerada);
             Controls.Add(btn_gerar_senha);
             Controls.Add(menuStrip1);
@@ -238,6 +238,7 @@
             gb_regras.PerformLayout();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)nud_tamanho_senha).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -246,7 +247,6 @@
 
         private Button btn_gerar_senha;
         private TextBox tb_senha_gerada;
-        private TextBox tb_tamanho_senha;
         private Label lb_tamanho;
         private CheckBox cb_letras;
         private CheckBox cb_numeros;
@@ -258,5 +258,6 @@
         private Button btn_salvar_senha;
         private Button btn_copiar_senha;
         private ToolStripMenuItem configToolStripMenuItem;
+        private NumericUpDown nud_tamanho_senha;
     }
 }

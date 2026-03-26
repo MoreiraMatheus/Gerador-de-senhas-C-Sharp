@@ -59,5 +59,14 @@ namespace gerador_de_senhas.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string Senha {
+            get {
+                return ResourceManager.GetString("Senha", resourceCulture);
+            }
+        }
     }
 }

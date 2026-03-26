@@ -30,7 +30,7 @@ namespace gerador_de_senhas
         }
 
         public void btn_gerar_senha_Click(object sender, EventArgs e) {
-            int tamanhoSenha = Convert.ToInt32(tb_tamanho_senha.Text);
+            int tamanhoSenha = Convert.ToInt32(nud_tamanho_senha.Value);
             bool contemLetras = cb_letras.Checked;
             bool contemNumeros = cb_numeros.Checked;
             bool contemSimbolos = cb_simbolos.Checked;
@@ -45,17 +45,6 @@ namespace gerador_de_senhas
         private void btn_copiar_senha_Click(object sender, EventArgs e) {
             Clipboard.SetText(senha);
             MessageBox.Show("Senha copiada para a área de tranferência");
-        }
-
-        private void tb_tamanho_senha_TextChanged(object sender, EventArgs e) {
-            if (int.TryParse(tb_tamanho_senha.Text, out int numero)) {
-                if (numero > configuracaoSenhas.tamanhoMaximoSenha) {
-                    tb_tamanho_senha.Text = $"{configuracaoSenhas.tamanhoMaximoSenha}";
-                }
-            }
-            else {
-                tb_tamanho_senha.Text = "0";
-            }
         }
     }
 }

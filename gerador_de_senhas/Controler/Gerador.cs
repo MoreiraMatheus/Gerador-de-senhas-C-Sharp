@@ -34,6 +34,8 @@ namespace gerador_de_senhas.Controler {
                 for (int i = 0; i < tamanho; i++) {
                     senhaGerada += baseParaSenha[aleatorio.Next(baseParaSenha.Length)];
                 }
+                //Se o tamanho da senha for menor que a quantidade de itens marcados a regra não se aplica
+
             }
             return $"{senhaGerada}";
         }
